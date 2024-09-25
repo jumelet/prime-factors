@@ -6,6 +6,13 @@ The code for the extraction of Priming Effects and the paper's analysis are spli
 
 PE extraction is done using the `transformers` and `diagnnose` libraries, and results in a `.csv` file containing the PE scores for each prime/target pair. This file can then be processed using `main.ipynb` notebook in the `extraction` folder, which contains the code for all the statistical experiments.
 
+## PE Extraction
+The PE scores for a particular LM can be extracted using the following command:
+
+`python3 main.py --model $HF_MODEL_NAME --data $DATA_DIR --save $SAVE_DIR`
+
+Where `$HF_MODEL_NAME` is a huggingface model name, `$DATA_DIR` points to the data directory found in `extraction/data` (the command creates scores for all files in that directory), and `$SAVE_DIR` a directory to which the scores file will be written. 
+
 ## Model Scores
 The dataframe containing all our model scores can be downloaded here: https://drive.google.com/file/d/1vvvq8ASQgPRkpYb3Cykn2f7n1PWBbLOz/view?usp=sharing
 
