@@ -202,12 +202,12 @@ if __name__ == "__main__":
             "transformer_type": args.model,
             "mode": mode,
             "device": DEVICE,
-            "token": "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",
+            #"token": "ADD_YOUR_HF_TOKEN_HERE",
         },
         "tokenizer": {
             "path": args.model,
             "use_fast": True,
-            "token": "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",
+            #"token": "ADD_YOUR_HF_TOKEN_HERE",
         },
         "extract": {
             "batch_size": 256,
