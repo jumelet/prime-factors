@@ -1,12 +1,17 @@
 # Do Language Models Exhibit Human-like Structural Priming Effects?
 Code for the ACL Findings paper "Do Language Models Exhibit Human-like Structural Priming Effects?"
 
-The code for the plots and experiments can be found in `src/main.ipynb`. The code for computing the priming effects can be found in `src/pe_scores.ipynb` (will be added soon).
+## Code
+The code for the extraction of Priming Effects and the paper's analysis are split into two folders: `extraction` and `analysis`.
 
+PE extraction is done using the `transformers` and `diagnnose` libraries, and results in a `.csv` file containing the PE scores for each prime/target pair. This file can then be processed using `main.ipynb` notebook in the `extraction` folder, which contains the code for all the statistical experiments.
+
+## Model Scores
 The dataframe containing all our model scores can be downloaded here: https://drive.google.com/file/d/1vvvq8ASQgPRkpYb3Cykn2f7n1PWBbLOz/view?usp=sharing
 
 Please reach out to me (Jaap) if you have any questions about the code or methodology!
 
+## Citation
 If you wish to cite our paper, you can use the following bib:
 ```@inproceedings{jumelet-etal-2024-language,
     title = "Do Language Models Exhibit Human-like Structural Priming Effects?",
