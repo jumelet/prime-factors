@@ -20,7 +20,8 @@ Please reach out to me (Jaap) if you have any questions about the code or method
 
 ## Citation
 If you wish to cite our paper, you can use the following bib:
-```@inproceedings{jumelet-etal-2024-language,
+```
+@inproceedings{jumelet-etal-2024-language,
     title = "Do Language Models Exhibit Human-like Structural Priming Effects?",
     author = "Jumelet, Jaap  and
       Zuidema, Willem  and
