@@ -14,7 +14,7 @@ The PE scores for a particular LM can be extracted using the following command:
 Where `$HF_MODEL_NAME` is a huggingface model name, `$DATA_DIR` points to the data directory found in `extraction/data` (the command creates scores for all files in that directory), and `$SAVE_DIR` a directory to which the scores file will be written. 
 
 ## Model Scores
-The dataframe containing all our model scores can be downloaded here: https://drive.google.com/file/d/1vvvq8ASQgPRkpYb3Cykn2f7n1PWBbLOz/view?usp=sharing
+The dataframe containing all our model scores can be downloaded here (2.5GB pickle file): https://drive.google.com/file/d/13i_rXcotbgp_MO2jlxdkFmNKyGjCMOfG/view?usp=sharing 
 
 Please reach out to me (Jaap) if you have any questions about the code or methodology!
 
